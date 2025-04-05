@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page</title>
+</head>
+<body>
+
+    <h1>Ordered List</h1>
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <h1>External Image</h1>
+    <img src="https://www.pexels.com/photo/example-image/" alt="Sample image from Pexels">
+
+    <h1>Contacts</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>123-456-7890</td>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Elm St</td>
+                <td>987-654-3210</td>
+                <td>jane.smith@example.com</td>
+            </tr>
+            <tr>
+                <td>Sam Brown</td>
+                <td>789 Pine St</td>
+                <td>456-123-7890</td>
+                <td>sam.brown@example.com</td>
+            </tr>
+            <tr>
+                <td>Chris Green</td>
+                <td>321 Oak St</td>
+                <td>654-789-1234</td>
+                <td>chris.green@example.com</td>
+            </tr>
+            <tr>
+                <td>Lisa White</td>
+                <td>654 Cedar St</td>
+                <td>789-321-4567</td>
+                <td>lisa.white@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+  
+    <h1>Registration Form</h1>
+    <form action="/submit-form" method="post">
+      
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+
+     
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+
+     
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br>
+
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+
+
+        <label>Membership Type:</label>
+        <input type="radio" id="basic" name="membership" value="basic">
+        <label for="basic">Basic</label>
+        <input type="radio" id="premium" name="membership" value="premium">
+        <label for="premium">Premium</label>
+        <br>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="tech" name="interests" value="tech">
+        <label for="tech">Technology</label>
+        <br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
